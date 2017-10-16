@@ -11,6 +11,9 @@ namespace ConsoleApp
         static void Main(string[] args)
         {
             // test driver - simulation of functions that go into a z-scan app
+
+            /*Init the stage object
+            Set VISA comm*/
         }
     }
 }
