@@ -1,11 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StageCtrl", "StageCtrl\StageCtrl.csproj", "{335D4F31-DB1F-4E65-ACD2-4532D5364C2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StageCtrl", "StageCtrl\StageCtrl.csproj", "{335D4F31-DB1F-4E65-ACD2-4532D5364C2E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf_UI", "Wpf_UI\Wpf_UI.csproj", "{54D1E51C-9255-4B6B-8BFE-A241244EA360}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9EE88B32-5D26-4848-879C-29F0E4310EE9}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{9C6E9F41-9F2B-4F34-94A5-800A3A778D3D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +28,15 @@ Global
 		{54D1E51C-9255-4B6B-8BFE-A241244EA360}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54D1E51C-9255-4B6B-8BFE-A241244EA360}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54D1E51C-9255-4B6B-8BFE-A241244EA360}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C6E9F41-9F2B-4F34-94A5-800A3A778D3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C6E9F41-9F2B-4F34-94A5-800A3A778D3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C6E9F41-9F2B-4F34-94A5-800A3A778D3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C6E9F41-9F2B-4F34-94A5-800A3A778D3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {801DC538-8FCC-4CCA-8806-26E81A46F3D7}
 	EndGlobalSection
 EndGlobal

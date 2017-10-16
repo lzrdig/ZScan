@@ -5,8 +5,27 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wpf_UI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="629.967" Width="973">
     <Grid>
-        
+        <Canvas HorizontalAlignment="Left" Height="379" Margin="362,10,0,0" VerticalAlignment="Top" Width="593">
+            <DockPanel Height="110" LastChildFill="False" Width="935" Canvas.Left="-345" Canvas.Top="467"/>
+        </Canvas>
+        <Canvas HorizontalAlignment="Left" Height="379" Margin="10,10,0,0" VerticalAlignment="Top" Width="315"/>
+        <GroupBox Header="Translation Stage" HorizontalAlignment="Left" Height="157" Margin="29,26,0,0" VerticalAlignment="Top" Width="268" BorderThickness="3">
+            <Grid HorizontalAlignment="Left" Height="113" Margin="10,10,0,0" VerticalAlignment="Top" Width="238">
+                <ComboBox HorizontalAlignment="Left" Margin="12,25,0,0" VerticalAlignment="Top" Width="211">
+                    <ComboBoxItem>Emulated Stage</ComboBoxItem>
+                    <ComboBoxItem>Thorlabs TL3000</ComboBoxItem>
+                    <ComboBoxItem>uSMC Stage</ComboBoxItem>
+                </ComboBox>
+                <ComboBox HorizontalAlignment="Left" Margin="12,65,0,0" VerticalAlignment="Top" Width="211">
+                    <ComboBoxItem>VISA:USB</ComboBoxItem>
+                    <ComboBoxItem>VISA:GPIB</ComboBoxItem>
+                    <ComboBoxItem>RS232</ComboBoxItem>
+                    <ComboBoxItem>GPIB</ComboBoxItem>
+                </ComboBox>
+            </Grid>
+        </GroupBox>
+
     </Grid>
 </Window>
