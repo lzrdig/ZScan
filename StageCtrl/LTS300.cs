@@ -4,9 +4,9 @@ using System.Text;
 
 namespace StageCtrl
 {
-    public class TL300 : TranStage
+    public class LTS300 : TranStage
     {
-        public TL300()
+        public LTS300()
         {
 
         }
