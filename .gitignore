@@ -259,3 +259,13 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+/FTDI support/vc_net_example/TryUSB/TryUSB.sln.old
+/FTDI support/vc_net_example/TryUSB/TryUSB.suo.old
+/FTDI support/vc_net_example/TryUSB/TryUSB.vcproj.7.10.old
+/FTDI support/vc_net_example/TryUSB/TryUSB.vcxproj
+/FTDI support/vc_net_example/TryUSB/TryUSB.vcxproj.filters
+/FTDI support/AN_104_FTDI_Drivers_Installation_Guide_for_WindowsXP(FT_000093).pdf
+/pyrame_v3/pyrame
+/FTDI support
+/pyrame_v3.0.gz
+/Docs

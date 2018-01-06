@@ -4,12 +4,29 @@ using System.Text;
 
 namespace StageCtrl
 {
-    public class LTS300 : TranStage
+    public class LTS300 : StageBase
     {
+        private int _stageId;
+        private ICommDev _stageCommPort;
+
+
         public LTS300()
         {
-
+            _stageId = 0;
         }
+
+        public LTS300(ICommDev commDev)
+        {
+            _stageId = 0;
+            _stageCommPort = commDev;
+        }
+
+        public override void Initialize()
+        {
+            throw new NotImplementedException();
+        }
+
+
         public override double GetAcceleration()
         {
             throw new NotImplementedException();
@@ -31,11 +48,6 @@ namespace StageCtrl
         }
 
         public override double GetSetVelocity()
-        {
-            throw new NotImplementedException();
-        }
-
-        public override void Initialize()
         {
             throw new NotImplementedException();
         }

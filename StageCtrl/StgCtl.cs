@@ -7,11 +7,33 @@ namespace StageCtrl
 {
     public interface ICommDev
     {
-        void SetPort(string portName);
+        void SetPortName(string portName);
+        string GetPortName();
     }
-    public abstract class TranStage
+    public interface IStage
     {
-        private ICommDev _commDev;
+        int StageId { get; set; }
+        double ActualPosition { get; set; }
+        double ActualVelocity { get; set; }
+        double ActualAcceleration { get; set; }
+
+        void Initialize();
+        void Move();
+        void Stop();
+    }
+
+    public abstract class StageBase
+    {
+        private readonly ICommDev _commDev;
+        public int StageId { get; set; }
+
+        public StageBase() { StageId = 0; }
+        public StageBase(int Id) { StageId = Id; }
+        public StageBase(int Id, ICommDev comm)
+        {
+            StageId = Id;
+            _commDev = comm;
+        }
 
         public abstract void Initialize();
         public abstract void Move();
