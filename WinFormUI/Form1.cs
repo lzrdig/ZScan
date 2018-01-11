@@ -19,7 +19,7 @@ namespace WinFormUI
 
             initStatus.Text = "Not Initialized";
 
-            axMG17Motor1.HWSerialNum = 45111111;
+            axMG17Motor1.HWSerialNum = 45112233;
 
             axMG17Motor1.StartCtrl();
         }
@@ -32,6 +32,11 @@ namespace WinFormUI
         private void axMG17Motor1_Enter(object sender, EventArgs e)
         {
 
+        }
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            axMG17Motor1.StopCtrl();
         }
     }
 }

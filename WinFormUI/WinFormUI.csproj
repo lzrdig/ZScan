@@ -79,14 +79,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <COMReference Include="AxCWUIControlsLib">
-      <Guid>{D940E4E4-6079-11CE-88CB-0020AF6845F6}</Guid>
-      <VersionMajor>1</VersionMajor>
-      <VersionMinor>6</VersionMinor>
-      <Lcid>0</Lcid>
-      <WrapperTool>aximp</WrapperTool>
-      <Isolated>False</Isolated>
-    </COMReference>
     <COMReference Include="AxMG17MotorLib">
       <Guid>{2A833923-9AA7-4C45-90AC-DA4F19DC24D1}</Guid>
       <VersionMajor>1</VersionMajor>
@@ -95,17 +87,25 @@
       <WrapperTool>aximp</WrapperTool>
       <Isolated>False</Isolated>
     </COMReference>
-    <COMReference Include="CWUIControlsLib">
-      <Guid>{D940E4E4-6079-11CE-88CB-0020AF6845F6}</Guid>
+    <COMReference Include="AxMG17SystemLib">
+      <Guid>{9460A175-8618-4753-B337-61D9771C4C14}</Guid>
       <VersionMajor>1</VersionMajor>
-      <VersionMinor>6</VersionMinor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="MG17MotorLib">
+      <Guid>{2A833923-9AA7-4C45-90AC-DA4F19DC24D1}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
       <Lcid>0</Lcid>
       <WrapperTool>tlbimp</WrapperTool>
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
-    <COMReference Include="MG17MotorLib">
-      <Guid>{2A833923-9AA7-4C45-90AC-DA4F19DC24D1}</Guid>
+    <COMReference Include="MG17SystemLib">
+      <Guid>{9460A175-8618-4753-B337-61D9771C4C14}</Guid>
       <VersionMajor>1</VersionMajor>
       <VersionMinor>0</VersionMinor>
       <Lcid>0</Lcid>

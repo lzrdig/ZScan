@@ -34,7 +34,9 @@
             this.initStatus = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.axMG17Motor1 = new AxMG17MotorLib.AxMG17Motor();
+            this.axMG17System1 = new AxMG17SystemLib.AxMG17System();
             ((System.ComponentModel.ISupportInitialize)(this.axMG17Motor1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axMG17System1)).BeginInit();
             this.SuspendLayout();
             // 
             // stagePos
@@ -83,11 +85,21 @@
             this.axMG17Motor1.TabIndex = 5;
             this.axMG17Motor1.Enter += new System.EventHandler(this.axMG17Motor1_Enter);
             // 
+            // axMG17System1
+            // 
+            this.axMG17System1.Enabled = true;
+            this.axMG17System1.Location = new System.Drawing.Point(606, 276);
+            this.axMG17System1.Name = "axMG17System1";
+            this.axMG17System1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axMG17System1.OcxState")));
+            this.axMG17System1.Size = new System.Drawing.Size(147, 61);
+            this.axMG17System1.TabIndex = 6;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 468);
+            this.Controls.Add(this.axMG17System1);
             this.Controls.Add(this.axMG17Motor1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.initStatus);
@@ -95,8 +107,10 @@
             this.Controls.Add(this.stagePos);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.axMG17Motor1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axMG17System1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -113,6 +127,7 @@
         private System.Windows.Forms.TextBox initStatus;
         private System.Windows.Forms.Button button1;
         private AxMG17MotorLib.AxMG17Motor axMG17Motor1;
+        private AxMG17SystemLib.AxMG17System axMG17System1;
     }
 }
 
