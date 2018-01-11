@@ -33,9 +33,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.initStatus = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.axCWKnob1 = new AxCWUIControlsLib.AxCWKnob();
             this.axMG17Motor1 = new AxMG17MotorLib.AxMG17Motor();
-            ((System.ComponentModel.ISupportInitialize)(this.axCWKnob1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.axMG17Motor1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -75,14 +73,6 @@
             this.button1.Text = "MOVE";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // axCWKnob1
-            // 
-            this.axCWKnob1.Location = new System.Drawing.Point(591, 197);
-            this.axCWKnob1.Name = "axCWKnob1";
-            this.axCWKnob1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axCWKnob1.OcxState")));
-            this.axCWKnob1.Size = new System.Drawing.Size(162, 147);
-            this.axCWKnob1.TabIndex = 4;
-            // 
             // axMG17Motor1
             // 
             this.axMG17Motor1.Enabled = true;
@@ -99,7 +89,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 468);
             this.Controls.Add(this.axMG17Motor1);
-            this.Controls.Add(this.axCWKnob1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.initStatus);
             this.Controls.Add(this.label1);
@@ -107,7 +96,6 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.axCWKnob1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.axMG17Motor1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -124,7 +112,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox initStatus;
         private System.Windows.Forms.Button button1;
-        private AxCWUIControlsLib.AxCWKnob axCWKnob1;
         private AxMG17MotorLib.AxMG17Motor axMG17Motor1;
     }
 }
