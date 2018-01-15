@@ -118,10 +118,6 @@
 
         #endregion
 
-        //private AxMG17MotorLib.AxMG17Motor axMG17Motor1;
-        //private AxMG17LoggerLib.AxMG17Logger axMG17Logger1;
-        //private MG17MotorLib.MG17Motor axMG17Motor1;
-        //private MG17LoggerLib.MG17Logger axMG17Logger1;
         private System.Windows.Forms.TextBox stagePos;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox initStatus;
